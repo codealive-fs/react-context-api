@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import Parent from './Parent';
+// import CounterContext from './CounterContext';
+import CounterClass from './CounterClass';
+import CounterHooks from './CounterHooks';
+import Toggler from './Toggler';
+import SimpleFormClass from './SimpleFormClass';
+import SimpleFormHooks from './SimpleFormHooks';
+import SimpleFormInput from './hooks/SimpleFormInput';
+import Clicker from './Clicker';
+import SWMovies from './SWMovies';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='App'> 
+        <SWMovies />
+      </div>  
   );
 }
 
